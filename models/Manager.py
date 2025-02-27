@@ -1,8 +1,8 @@
 class Manager:
-    def __init__(self,ManagerID, ManagerName, LoginName, Password):
+    def __init__(self,ManagerID, ManagerName, ManagerLoginName, Password):
         self.ManagerID=ManagerID
         self.ManagerName=ManagerName
-        self.LoginName=LoginName
+        self.ManagerLoginName=ManagerLoginName
         self.Password=Password
     def __str__(self):
-        return f"{self.ManagerID}\t{self.ManagerName}\t{self.LoginName}\t{self.Password}"
+        return f"{self.ManagerID}\t{self.ManagerName}\t{self.ManagerLoginName}\t{self.Password}"

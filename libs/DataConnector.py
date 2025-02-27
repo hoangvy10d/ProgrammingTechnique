@@ -1,20 +1,18 @@
 from libs.JsonFileFactory import JsonFileFactory
 
 
-
-
 class DataConnector:
-    def get_all_employees(self):
+    def get_all_fanfic(self):
         jff = JsonFileFactory()
-        filename = "../dataset/employees.json"
-        employees = jff.read_data(filename, Employee)
-        return employees
-    def get_all_assets(self):
+        filename = "../dataset/Fanfic.json"
+        Fanfic=jff.read_data(filename,Fanfic)
+        return Fanfic
+    def get_all_user(self):
         jff = JsonFileFactory()
         filename = "../dataset/assets.json"
         assets = jff.read_data(filename, Asset)
         return assets
-    def get_all_employee_assets(self):
+    def get_all_manager(self):
         jff = JsonFileFactory()
         filename = "../dataset/employee_assets.json"
         eas = jff.read_data(filename, Employee_Asset)
