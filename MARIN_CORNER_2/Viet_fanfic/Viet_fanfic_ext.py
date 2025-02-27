@@ -12,6 +12,16 @@ class Viet_fanfic_ext(Ui_MainWindow):
         self.MainWindow.show()
 
     def setupSignalAndSlot(self):
+        self.pushButton_Post.clicked.connect(self.process_post)
+        self.pushButton_Back.clicked.connect(self.process_back)
+        self.pushButton_Search.clicked.connect(self.process_search)
+        self.pushButton_Save.clicked.connect(self.process_save)
+    def process_post(self):
         pass
-
+    def process_back(self):
+        pass
+    def process_search(self):
+        pass
+    def process_save(self):
+        pass
 
