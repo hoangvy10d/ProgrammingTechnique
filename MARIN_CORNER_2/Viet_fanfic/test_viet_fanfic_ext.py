@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QMainWindow, QApplication
 
-from Group_Project.Viet_fanfic_ext import Viet_fanfic_ext
+from MARIN_CORNER_2.Viet_fanfic.Viet_fanfic_ext import Viet_fanfic_ext
 
 app=QApplication([])
 Mainwindow=QMainWindow()
